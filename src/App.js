@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import Header from "./components/header";
 import './App.css';
+import Bimg from "./components/bimg";
+import ExploreNearby from "./components/ExploreNearby";
+import LiveAnywhere from "./components/LiveAnywhere";
+import DiscoverThings from "./components/DiscoverThings";
+import Menu from "./components/menu";
+import Footer from "./components/footer";
+import Hosting from "./components/hosting";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Bimg />
+      <ExploreNearby />
+      <LiveAnywhere />
+      <Hosting />
+      <DiscoverThings />
+      <Menu />
+      <Footer />
     </div>
+
   );
 }
 

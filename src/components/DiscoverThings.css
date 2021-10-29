@@ -1,0 +1,26 @@
+.DT-Outer{
+    height: 700px;
+}
+.DT-Heading{
+    font-size: 35px;
+    margin-left: 40px;
+    padding: 30px;
+}
+.DT-Block{
+    float: left;
+    width: 350px;
+    margin-left: 50px ;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255) ;
+}
+.DT-Img{
+    width: 320px;
+    height: 350px;
+    border-radius: 20px;
+    float: left;
+}
+
+.DT-img-captions{
+    font-size: 20px;
+    font-weight :500;
+}

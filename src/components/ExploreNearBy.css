@@ -1,0 +1,27 @@
+.outer{
+    height: 400px;
+    box-sizing: border-box;
+}
+.Heading{
+    font-size: 35px;
+    margin-left: 40px;
+    padding: 30px;
+}
+
+.Block{
+    float: left;
+    width: 250px;
+    height: 100px;
+    margin-left: 50px ;
+    margin-top: 10px;
+    /* border-radius: 20px; */
+    background-color: rgb(255, 255, 255) ;
+    /* margin-left: 10px; */
+}
+.imgLoc{
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    padding: 13px;
+    float: left;
+}

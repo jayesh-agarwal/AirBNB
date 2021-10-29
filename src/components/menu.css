@@ -1,0 +1,23 @@
+.Menu{
+    height: 500px;
+    background-color: rgb(243, 243, 243);
+}
+.Menu-Block{
+    width: 250px;
+    margin-left: 56px;
+    height: 400px;
+    margin-top: 0px;
+    float: left;
+    /* background-color: violet; */
+}
+ul{
+    list-style-type: none;
+}
+li {
+    position: relative;
+    /* padding-left: 11px; */
+    line-height: 2.3em;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
